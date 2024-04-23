@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic-Tac-Toe</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    
+    <div class="start-game-section" >
+        <h1>Tic-Tac-Toe</h1>
+        <div class="player-names">
+            <div class="input-container">
+                <input type="text" id="player-1" placeholder="Player name">
+                <button class="button">X</button>
+            </div>
+            <div class="input-container">
+                <input type="text" id="player-2" placeholder="player name">
+                <button class="button">O</button>
+            </div>
+        </div>
+        <div class="buttons">
+            <button id="start-game" class="btn"><span></span><p data-start="good luck!" data-text="start!" data-title="new game"></p></button>
+         </div>
+    </div>
+
+
+    </div>
+    <div class="game-container">
+        <h3 id="player-turn-text"></h3>
+        <div id="game-board">
+           <!-- first row -->
+            <div id="1st-cell" class="game-board-cell"></div>
+            <div id="2nd-cell" class="game-board-cell"></div>
+            <div id="3rd-cell" class="game-board-cell"></div>
+           
+            <!-- second row -->
+            <div id="4th-cell" class="game-board-cell"></div>
+            <div id="5th-cell" class="game-board-cell"></div>
+            <div id="6th-cell" class="game-board-cell"></div>
+            
+            <!-- third row -->
+            <div id="7th-cell" class="game-board-cell"></div>
+            <div id="8th-cell" class="game-board-cell"></div>
+            <div id="9th-cell" class="game-board-cell"></div>
+            
+        </div>
+        <div class="game-result">
+           <h1 id="game-result-text"></h1>
+           
+          </div>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>
